@@ -1,0 +1,132 @@
+ASSIGNMENT 1: Getting Started with HTML
+
+1 Solution:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Program</title>
+</head>
+<body>
+    <h1>HTML defines the content and structure of your website</h1>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+2 Answer:
+
+Comments are useful for providing documentation, clarifications, or reminders about the code, making it easier for
+developers to understand and maintain the HTML document. We can use comments in an HTML document:
+
+a. Single-Line Comments:
+To create a single-line comment in HTML, you can use the <!-- and --> tags to enclose your comment text.
+Here's an example:
+<!-- This is a single-line comment -->
+<p>This is a paragraph of text.</p>
+In this example, the text "This is a single-line comment" is a comment and will not be rendered on the web page.
+
+b. Multi-Line Comments:
+For longer comments spanning multiple lines, you can still use the <!-- and --> tags. 
+
+Here's an example:
+<!--
+This is a multi-line comment.
+It can span multiple lines for more extensive explanations.
+-->
+<p>This is another paragraph of text.</p>
+
+In this case, everything between <! -- and --> is considered a comment and will not be rendered in the browser.
+
+c. Commenting Out Code:
+Comments are also useful for temporarily disabling or "commenting out" sections of code without deleting them.
+
+Here's an example of commenting out a line of code:
+<p>This paragraph is visible. </p>
+<!-- <p>This paragraph is commented out and won't be displayed.</p> -->
+<p>This is another visible paragraph.</p>
+
+The second paragraph, enclosed within <!-- and -->, is considered a comment and will not be displayed.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+3 Solution:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsum mollitia amet recusandae perferendis
+        molestiae magni, nesciunt reiciendis repellat quis non temporibus doloremque ipsa deserunt vero praesentium
+        magnam dolorum dolore tempore aut delectus, eos culpa! Facilis ad architecto omnis, in mollitia inventore
+        aliquam provident at iusto odio excepturi laborum impedit.</p>
+
+    <hr> <!-- Horizontal Line -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus id laborum praesentium non rem sed quasi
+        excepturi atque accusamus delectus.</p>
+
+    <br> <!-- Line Break -->
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quia dolorem similique excepturi
+        assumenda tempora accusantium qui, voluptatum repellat blanditiis? Eos, ipsum. Molestiae minus voluptates
+        dolorem nihil quasi tempora aut!</p>
+    </body>
+    </html>
+	
+------------------------------------------------------------------------------------------------------------------------------------------
+
+4 Answer:
+
+In HTML, the terms "tag" and "element" are fundamental concepts that help define the structure and content of a web
+page.
+
+    1. HTML Tag:
+        a. An HTML tag is a predefined keyword or code enclosed in angle brackets (< and>).
+        b. Tags are used to mark the beginning and end of HTML elements and can also include attributes to provide
+        additional information about the element.
+
+        Example of HTML Tag:
+        <p>This is a paragraph tag.</p>
+        In this example, <p> is the opening tag, and </p> is the closing tag. Together, they define a paragraph element.
+
+    2. HTML Element:
+        a. An HTML element consists of an opening tag, content, and a closing tag.
+        b. The opening tag marks the beginning of the element, the closing tag marks the end, and the content is the
+        actual data or information contained within the element.
+
+        Example of HTML Element:
+        <h1>This is an example of an HTML element.</h1>
+        In this example, <h1> is the opening tag, "This is an example of an HTML element." is the content, and </h1> is
+        the closing tag. Together, they form a heading element.
+
+        HTML tags and elements work together to create the structure and content of a web page. Tags define the type and
+        purpose of an element, while elements encapsulate and display the actual content.
+		
+-----------------------------------------------------------------------------------------------------------------------------------------
+    
+5 Answer:
+
+A DOCTYPE declaration is a crucial element in an HTML document that specifies the type of document and version
+of HTML being used. It helps web browsers interpret the HTML content correctly.
+The DOCTYPE declaration is typically placed at the very beginning of an HTML document, before the <html> tag.
+
+Here's an example of a DOCTYPE declaration for HTML5:
+    
+<!DOCTYPE html>
+<html>
+<!-- The rest of your HTML content goes here -->
+</html>
+
+In this example,
+<!DOCTYPE html> specifies that the document is written in HTML5. Different versions of HTML have different
+DOCTYPE declarations, and using the correct DOCTYPE declaration ensures that the web page is rendered
+consistently across different browsers.
