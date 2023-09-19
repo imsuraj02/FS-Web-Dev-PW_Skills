@@ -1,0 +1,42 @@
+//5. Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the content and showcase at least three key features of HTML5 with explanations.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>    
+</head>
+<body>
+    <header>
+        <h1>HTML5 Features</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Semantic Elements</h2>
+            <p>HTML5 introduces semantic elements like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, and &lt;footer&gt; that provide better structure and meaning to web documents. These elements make it easier for search engines and assistive technologies to understand the content.</p>
+        </section>
+
+        <section>
+            <h2>Video Support</h2>
+            <p>HTML5 includes the &lt;video&gt; element, allowing native embedding of videos without the need for plugins like Flash. This improves performance, cross-browser compatibility, and accessibility. Here's an example:</p>
+            <video alt="human_feeding_the_little_squirrel" width="500" controls>
+                <source src="./human_feeding_the_little_squirrel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Canvas for Graphics</h2>
+            <p>HTML5 introduces the &lt;canvas&gt; element, enabling dynamic, scriptable rendering of 2D graphics. It's used for creating games, data visualizations, and interactive graphics. Here's a simple example:</p>
+            <canvas id="myCanvas" width="400" height="200"></canvas>
+            <script>
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#0074d9";
+                ctx.fillRect(50, 50, 300, 100);
+            </script>
+        </section>
+    </main>
+</body>
+</html>
