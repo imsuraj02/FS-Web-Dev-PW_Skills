@@ -1,0 +1,39 @@
+<!-- 3. Develop an HTML form with various input elements. Use CSS to style the form, including setting background colors for input fields. Create a custom color palette for the form elements, and demonstrate how to apply opacity to one of the form sections. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML With CSS Style Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Contact Us</h1>
+    <form action="./Submit_Message.html" method="post">
+        <div class="form-section">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Please Enter Name">
+        </div>
+        <div class="form-section">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Please Enter Email">
+        </div>
+        <div class="form-section opacity">
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" placeholder="Please Enter Your Message"></textarea>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" id="subscribe" name="subscribe" style="display: block;">
+            <label for="subscribe">Subscribe to Newsletter</label>
+        </div>
+        <br>
+        <div class="form-section">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* Base styling for the main block */
+.paragraph-block {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Modifier styling for the important paragraph */
+.paragraph-block--important {
+    font-weight: bold;
+    color: red;
+}
+
+/* Sub-element styling for the sub-paragraph */
+.paragraph-block__sub {
+    font-style: italic;
+    color: #333;
+}
+
+
+/* In the CSS above:
+
+1) The "paragraph-block" class represents the base styling for the main block element, which includes font size and margin.
+2) The "paragraph-block--important" class is a modifier class that indicates an important paragraph. It modifies the font weight and color.
+3) The "paragraph-block__sub" class represents a sub-element within the main block. It applies italic styling and a different text color.
+
+With this structure, we have used BEM naming conventions:
+
+a) "paragraph-block" represents the main block.
+b) "paragraph-block--important" is a modifier class to modify the main block.
+c) "paragraph-block__sub" is a sub-element within the main block. */

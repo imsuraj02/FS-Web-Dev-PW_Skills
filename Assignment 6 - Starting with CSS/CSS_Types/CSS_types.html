@@ -1,0 +1,59 @@
+<!-- 1. Create a simple page with some div tags and show different ways to add CSS as well as what happens when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the
+project where required. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Types</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for div with id "box1" */
+        #box1 {
+            background-color: yellow;
+            width: 200px;
+            height: 100px;
+        }
+
+        /* Internal CSS for div with class "box" */
+        .box {
+            background-color: lightblue;
+            width: 150px;
+            height: 75px;
+        }
+    </style>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>CSS Types</h1>
+    
+    <!-- Inline CSS for a single div -->
+    <div id="box1" style="background-color: lightgreen;">
+        <p>This div uses inline CSS.</p>
+    </div>
+    <br>
+    <!-- Internal CSS for multiple divs -->
+    <div class="box">
+        <p>This div uses internal CSS (class).</p>
+    </div>
+    <br>
+    <!-- Internal CSS for multiple divs -->
+    <div class="box">
+        <p>This div also uses internal CSS (class).</p>
+    </div>
+    <br>
+    <!-- External CSS for multiple divs -->
+    <div class="box2">
+        <p>This div uses external CSS (class).</p>
+    </div>
+    <br>
+    <!-- External CSS for multiple divs -->
+    <div class="box2">
+        <p>This div also uses external CSS (class).</p>
+    </div>
+</body>
+</html>
